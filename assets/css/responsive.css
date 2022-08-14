@@ -1,0 +1,171 @@
+/* / Medium Layout: 1280px. W:970px / */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+    .single-chef{
+        margin-right: 10px;
+    }
+    .single-favourite h3 {
+        font-size: 30px;
+    }
+    .single-menu{
+        margin-right: 10px;
+    }
+}
+
+/* / Tablet Layout: 768px. W:750px / */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .ptb-100 {
+        padding: 70px 0;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_brand {
+        font-size: 35px;
+    }
+    .slicknav_brand a {
+        color: #fff !important;
+    }
+    .header-area {
+        display: none;
+    }
+    .single-banner {
+        height: 500px;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .banner-content span {
+        font-size: 25px;
+    }
+    .favourite-area .owl-dots {
+        top: -84px;
+    }
+    .single-menu h3 {
+        font-size: 25px;
+    }
+    .single-menu h3::before {
+        width: 75px;
+        left: 60px;
+    }
+    .single-menu h3::after {
+        width: 75px;
+        left: 60px;
+    }
+    .single-menu {
+        margin-right: 10px;
+    }
+    .single-masonary.m5 {
+        top: 126px !important;
+    }
+    .story-banner-area {
+        height: 50px;
+    }
+    .single-about-content h3 {
+        font-size: 25px;
+    }
+    .single-chef{
+        margin-right: 10px;
+    }
+}
+
+/* / Mobile Layout: 320px. W:300 / */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 300px;
+    }
+    .ptb-100 {
+        padding: 50px 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .header-area {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .single-banner {
+        height: 450px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .banner-content span {
+        font-size: 25px;
+    }
+    .favourite-area .owl-dots {
+        top: unset;
+        right: unset;
+    }
+    .tasty-menu {
+        flex-direction: column;
+    }
+    .single-menu {
+        margin-top: 20px;
+    }
+    .single-menu h3 {
+        font-size: 30px;
+    }
+    .single-menu h3::before {
+        width: 115px;
+    }
+    .single-menu h3::after {
+        width: 115px;
+    }
+    .customer-content {
+        max-width: 100%;
+    }
+    .masonary-area #masonary {
+        height: unset;
+    }
+    .story-banner-area {
+        height: 50px;
+    }
+    .restaurent-content {
+        max-width: 100%;
+        margin: auto;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .single-about {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .stories {
+        flex-direction: column;
+    }
+    .single-story {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .our-chefs {
+        flex-direction: column;
+    }
+    .single-chef {
+        margin-top: 20pxs;
+    }
+    .slicknav_brand {
+        font-size: 35px;
+    }
+    .slicknav_brand a {
+        color: #fff !important;
+    }
+}
+
+/* / Wide Mobile Layout: 480px. / */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
